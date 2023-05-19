@@ -13,10 +13,10 @@ export const Form = (props) => {
         onSubmit={(e) => {
           e.preventDefault();
           const newTodo = {
-            id: Math.random(),
+            id: Math.random(), //generowanie unikalnego
             title,
             priority,
-            status: false,
+            status: false, //nowe zadanie jest niezakończone
           };
           setTodos((todos) => [...todos, newTodo]);
           setTitle("");
@@ -24,7 +24,7 @@ export const Form = (props) => {
         }}
       >
         <input
-          required
+          required //pole tekstowe jest wymagane, czyli użytkownik musi wprowadzić wartość
           type="text"
           placeholder="Todo title"
           value={title}

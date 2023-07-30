@@ -7,7 +7,10 @@ export const Filters = (props) => {
     <article>
       <h2>Filters</h2>
 
-      <form style={{ display: "flex", gap: 20 }}>
+      <form
+        style={{ display: "flex", gap: 20 }}
+        onSubmit={(e) => e.preventDefault()}
+      >
         <div>
           <label htmFor="title">Title</label>
 

@@ -1,8 +1,10 @@
-# Todolist app - full CRUD ✅
+# ToDo List App - full CRUD ![Check mark](/public/favicon-32x32.png)
 
-App todo list that allows create, edit, delete and display todo items.
+App ToDo List allows to create, edit, delete and display to-do items.
 
-Written in React.js with little help of Pico CSS - library that boost a little bit development speed.
+Written in React.js with little help of Pico CSS - library that slightly boosts development speed.
+
+![Screenshot of App](./public/screenshot-of-app.png)
 
 ## Getting Started with Create React App
 

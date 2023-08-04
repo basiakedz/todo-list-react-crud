@@ -4,6 +4,10 @@ App ToDo List allows to create, edit, delete and display to-do items.
 
 Written in React.js with little help of Pico CSS - library that slightly boosts development speed.
 
+### Link
+
+- Live preview: [https://todo-list-crud-basiakedz.netlify.app/](https://todo-list-crud-basiakedz.netlify.app/)
+
 ![Screenshot of App](./public/screenshot-of-app.png)
 
 ## Getting Started with Create React App
